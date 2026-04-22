@@ -1,0 +1,18 @@
+{% extends 'exam/base.html' %}
+
+{% block title %}Result{% endblock %}
+
+{% block content %}
+<div class="text-center">
+  <h2>Your Score</h2>
+  <h1 class="text-success">{{ score }}</h1>
+
+  <a href="/dashboard/" class="btn btn-primary mt-3">Back</a>
+</div>
+<h4>Correct Answers:</h4>
+
+{% for q in questions %}
+  <p><b>{{ q.question_text }}</b></p>
+  <p class="text-success">Correct: {{ q.correct_answer }}</p>
+{% endfor %}
+{% endblock %} 

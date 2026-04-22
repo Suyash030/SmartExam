@@ -1,0 +1,103 @@
+/* 🌐 General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container */
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #007bff;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Dashboard */
+.dashboard {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dashboard a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 5px;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+/* Exam Page */
+.exam-container {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+/* Result Page */
+.result {
+    text-align: center;
+    margin-top: 100px;
+    background: white;
+    padding: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}

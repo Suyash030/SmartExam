@@ -1,0 +1,35 @@
+{% extends 'exam/base.html' %}
+
+{% block title %}Result History{% endblock %}
+
+{% block content %}
+
+<h2 class="text-center mb-4">📊 Your Exam History</h2>
+
+<div class="card shadow p-4">
+  {% if results %}
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Score</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for r in results %}
+        <tr>
+          <td>{{ forloop.counter }}</td>
+          <td>{{ r.score }}</td>
+          <td>{{ r.date }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="text-center">No exam history found.</p>
+  {% endif %}
+</div>
+
+{% endblock %}

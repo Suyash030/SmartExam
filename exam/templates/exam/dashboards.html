@@ -1,0 +1,11 @@
+{% extends 'exam/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="text-center">
+  <h2>Welcome {{ user.username }}</h2>
+<a href="/history/" class="btn btn-secondary mt-3">View History</a>
+  <a href="/exam/" class="btn btn-primary btn-lg mt-3">Start Exam</a>
+</div>
+{% endblock %}
