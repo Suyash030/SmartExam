@@ -26,16 +26,16 @@ A full-stack Django web application that allows users to take online exams with 
 ## Screenshots
 
 ### Login Page
-![Login Page](Login Page.png)
+![Login Page](Login-Page.png)
 
 ### Student Dashboard
-![Dashboard](Dashboard Page.png)
+![Dashboard](Dashboard-Page.png)
 
 ### Exam Interface
-![Exam](Exam Page.png)
+![Exam](Exam-Page.png)
 
 ### Result Page
-![Result](Result Page.png)
+![Result](Result-Page.png)
 
 git clone https://github.com/Suyash030/SmartExam.git
 cd SmartExam
